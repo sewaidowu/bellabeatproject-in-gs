@@ -1,5 +1,7 @@
 # bellabeatproject-in-gs
 
+[Presentation Document - Project Overview, Key Findings + Supporting Visualizations and Recommendations](https://docs.google.com/presentation/d/1gT5MjjK4A1MqUjy77pXBKkfyfiGvs6TzaPtz2egr1JI/edit#slide=id.g2c43ea45db0_0_107)
+
 ## A Clear Summary of the Business Task
 **The business task of this project is** 
 
@@ -197,7 +199,7 @@ In conclusion, the dataset is clean, consistent, and reliable, setting the stage
 - How consistent are step counts throughout the week?
     - The step counts are fairly consistent as there is a 17% difference from the minimum average step count (Sunday) and the maximum average step count (Tuesday).
         
-        ![MAIN RAW DATA - Google Sheets and 14 more pages - Personal - Microsoft Edge 2_28_2024 10_00_24 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/bec0b47c-e35c-4384-ad28-190aa972af89/MAIN_RAW_DATA_-_Google_Sheets_and_14_more_pages_-_Personal_-_Microsoft_Edge_2_28_2024_10_00_24_AM.png)
+        [MAIN RAW DATA - Google Sheets and 14 more pages - Personal - Microsoft Edge 2_28_2024 10_00_24 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/bec0b47c-e35c-4384-ad28-190aa972af89/MAIN_RAW_DATA_-_Google_Sheets_and_14_more_pages_-_Personal_-_Microsoft_Edge_2_28_2024_10_00_24_AM.png)
         
     - To further confirm this, I calculated the Standard deviation score using the SDEV function and this was the result: If the average step count is 8340.256112, the standard deviation remains roughly 6.14% of the average step count (512.2458225 / 8340.256112). In this context, a standard deviation that represents a small percentage of the mean may still be considered relatively low.
         
