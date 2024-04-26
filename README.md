@@ -199,11 +199,9 @@ In conclusion, the dataset is clean, consistent, and reliable, setting the stage
 - How consistent are step counts throughout the week?
     - The step counts are fairly consistent as there is a 17% difference from the minimum average step count (Sunday) and the maximum average step count (Tuesday).
         
-        [MAIN RAW DATA - Google Sheets and 14 more pages - Personal - Microsoft Edge 2_28_2024 10_00_24 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/bec0b47c-e35c-4384-ad28-190aa972af89/MAIN_RAW_DATA_-_Google_Sheets_and_14_more_pages_-_Personal_-_Microsoft_Edge_2_28_2024_10_00_24_AM.png)
         
     - To further confirm this, I calculated the Standard deviation score using the SDEV function and this was the result: If the average step count is 8340.256112, the standard deviation remains roughly 6.14% of the average step count (512.2458225 / 8340.256112). In this context, a standard deviation that represents a small percentage of the mean may still be considered relatively low.
         
-        ![MAIN RAW DATA - Google Sheets and 7 more pages - Personal - Microsoft Edge 2_29_2024 2_42_35 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/460cde88-a17e-4b45-b2a4-14be3c9144cb/MAIN_RAW_DATA_-_Google_Sheets_and_7_more_pages_-_Personal_-_Microsoft_Edge_2_29_2024_2_42_35_PM.png)
         
 - Are there particular days where steps tend to be higher or lower?
     
@@ -211,23 +209,18 @@ In conclusion, the dataset is clean, consistent, and reliable, setting the stage
     
     I.e people take more steps on Saturday and Tuesday and people take less steps on Sunday and Friday.
     
-    ![MAIN RAW DATA - Google Sheets and 14 more pages - Personal - Microsoft Edge 2_28_2024 10_00_24 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/e56d5ee8-c07a-4b36-bebe-2b86084a50cb/MAIN_RAW_DATA_-_Google_Sheets_and_14_more_pages_-_Personal_-_Microsoft_Edge_2_28_2024_10_00_24_AM.png)
-    
 - Do users tend to take more steps on weekdays compared to weekends, or vice versa?
     
     No, there is no correlation to this as Saturday is one of the highest days for step counts while Sunday is the lowest day for step counts.
     
-    ![MAIN RAW DATA - Google Sheets and 14 more pages - Personal - Microsoft Edge 2_28_2024 10_00_24 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/968577fa-cd95-4344-bbe1-9e511515c9a0/MAIN_RAW_DATA_-_Google_Sheets_and_14_more_pages_-_Personal_-_Microsoft_Edge_2_28_2024_10_00_24_AM.png)
-    
+
 - Are there specific times of day when users tend to burn more calories?
     
     According to this graph, people are burning most calories on Tuesday and Saturday which is to be expected as those are also the days that people take most steps on average.
     
-    ![MAIN RAW DATA - Google Sheets and 14 more pages - Personal - Microsoft Edge 2_28_2024 10_07_37 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/1b3bd183-7e8e-4142-8f95-4d71cf822c48/MAIN_RAW_DATA_-_Google_Sheets_and_14_more_pages_-_Personal_-_Microsoft_Edge_2_28_2024_10_07_37_AM.png)
     
     However, when it came to the days people take least steps (Sundays and Fridays), people were still burning more calories than expected so I made another pivot table and created another graph to confirm that there is something going on there
     
-    ![MAIN RAW DATA - Google Sheets and 5 more pages - Personal - Microsoft Edge 3_1_2024 3_58_32 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/f743b0e3-67da-4a90-9bc2-5823418a2c1f/MAIN_RAW_DATA_-_Google_Sheets_and_5_more_pages_-_Personal_-_Microsoft_Edge_3_1_2024_3_58_32_PM.png)
     
 - Are there specific days of the week where users tend to be more active compared to others?
     
@@ -235,49 +228,36 @@ In conclusion, the dataset is clean, consistent, and reliable, setting the stage
     
     ALso, it can be seen that the least days are Fridays and Thursdays.
     
-    ![MAIN RAW DATA - Google Sheets and 14 more pages - Personal - Microsoft Edge 2_28_2024 10_10_27 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/2837720a-e87a-4d63-94c8-0b67fec99ebe/MAIN_RAW_DATA_-_Google_Sheets_and_14_more_pages_-_Personal_-_Microsoft_Edge_2_28_2024_10_10_27_AM.png)
     
 - How much distance, on average, do users cover each day in total and across different activity levels (very active, moderately active, light active, sedentary)?
     
     It can be found from the below that most distance (61%) is gotten from light active activities. This shows that engaging in light active distance for longer periods can lead to getting in more distance along the way.
     
-    ![MAIN RAW DATA - Google Sheets and 14 more pages - Personal - Microsoft Edge 3_5_2024 10_33_08 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/6cf5ab4c-3757-4482-934d-fa9dbb54339d/MAIN_RAW_DATA_-_Google_Sheets_and_14_more_pages_-_Personal_-_Microsoft_Edge_3_5_2024_10_33_08_AM.png)
-    
-    ![MAIN RAW DATA - Google Sheets and 5 more pages - Personal - Microsoft Edge 3_1_2024 4_24_03 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/f3dc409c-be9f-4d8a-bb61-4382b2531330/MAIN_RAW_DATA_-_Google_Sheets_and_5_more_pages_-_Personal_-_Microsoft_Edge_3_1_2024_4_24_03_PM.png)
     
 - Is there a correlation between the number of very active minutes and the total distance covered in a day?
     
     Yes, there is a high correlation between the very active minutes and the total distance. This means that users engage in sports that are high intensity and cover lots of distance eg running, cycling, hiking etc.
     
-    ![A summary of your analysis and 5 more pages - Personal - Microsoft Edge 3_1_2024 4_30_00 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/58c4b269-bfa4-4874-91c1-f582492120ab/A_summary_of_your_analysis_and_5_more_pages_-_Personal_-_Microsoft_Edge_3_1_2024_4_30_00_PM.png)
-    
-    ![A summary of your analysis and 5 more pages - Personal - Microsoft Edge 3_1_2024 4_31_31 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/a91df62b-f6de-4257-bc7a-d48ef533b40f/A_summary_of_your_analysis_and_5_more_pages_-_Personal_-_Microsoft_Edge_3_1_2024_4_31_31_PM.png)
     
 - What's the relationship between steps taken in a day and sedentary minutes?
     
     - Steps/ Sedentary Minutes: There was a very slight downward slope, which indicates no correlation between the two
         
-        ![MAIN RAW DATA - Google Sheets and 6 more pages - Personal - Microsoft Edge 3_4_2024 9_44_52 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/dec6c39e-f2d0-42ce-b678-288d909d5b66/MAIN_RAW_DATA_-_Google_Sheets_and_6_more_pages_-_Personal_-_Microsoft_Edge_3_4_2024_9_44_52_AM.png)
         
     - Steps/ Very Active Minutes: There was a high upward slope, which indicates high correlation between the two
         
-        ![MAIN RAW DATA - Google Sheets and 6 more pages - Personal - Microsoft Edge 3_4_2024 9_43_49 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/7b22ed4d-4e2b-4f28-b7ef-e69a7194ada6/MAIN_RAW_DATA_-_Google_Sheets_and_6_more_pages_-_Personal_-_Microsoft_Edge_3_4_2024_9_43_49_AM.png)
         
     - Steps/ Calories: There was a very moderate upward slope, which indicates moderate correlation between the two
         
-        ![MAIN RAW DATA - Google Sheets and 6 more pages - Personal - Microsoft Edge 3_4_2024 9_42_58 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/6c849a57-3017-4038-b79a-7a0c4083ee58/MAIN_RAW_DATA_-_Google_Sheets_and_6_more_pages_-_Personal_-_Microsoft_Edge_3_4_2024_9_42_58_AM.png)
         
 - Is there a relationship between sedentary minutes and overall daily calorie burn?
     
     There is little to no relationship as the trendline is considerably flat.
     
-    ![MAIN RAW DATA - Google Sheets and 6 more pages - Personal - Microsoft Edge 3_4_2024 9_02_04 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/3ea6b83b-9559-40df-83bd-696499fabb1b/MAIN_RAW_DATA_-_Google_Sheets_and_6_more_pages_-_Personal_-_Microsoft_Edge_3_4_2024_9_02_04_AM.png)
-    
 - Any correlation between total steps and total calories burned?
     
     There is considerable correlation as the trendline is slanted to a good amount
     
-    ![MAIN RAW DATA - Google Sheets and 6 more pages - Personal - Microsoft Edge 3_4_2024 9_03_47 AM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/bb8822b2-4c79-49b8-a5a8-3e499be8ba55/MAIN_RAW_DATA_-_Google_Sheets_and_6_more_pages_-_Personal_-_Microsoft_Edge_3_4_2024_9_03_47_AM.png)
     
 - What is the percentage of users that log activities they engage in?
     
@@ -293,8 +273,6 @@ In conclusion, the dataset is clean, consistent, and reliable, setting the stage
     - *How consistent are step counts throughout the week?*
     - The step counts throughout the week show relative consistency, with a 17% difference between the minimum average count (Sunday) and the maximum average count (Tuesday). Additionally, the standard deviation remains approximately 6.14% of the mean step count, indicating relatively low variability
         
-        ![Step Count Trends Across Days of the Week.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/34767118-e8c3-4f88-970f-a4d0521c303b/Step_Count_Trends_Across_Days_of_the_Week.png)
-        
 
 ---
 
@@ -302,16 +280,12 @@ In conclusion, the dataset is clean, consistent, and reliable, setting the stage
     - *Are there specific days of the week where users tend to be more active compared to others?*
     - Users tend to be most active on Mondays and Tuesdays, when they’re likely to be engaging in high-energy activities like running, cycling, sports, e.t.c at the start of the week, while towards the end of the week, Thursdays and Fridays are observed to be the least active days.
     
-    ![Exploring User Activity_ Peak Days Through the Week.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/1c062387-cf1e-4ea6-958a-0cc4d063b879/Exploring_User_Activity__Peak_Days_Through_the_Week.png)
-    
-
+  
 ---
 
 - **Key Finding #3**
     - *How much distance, on average, do users cover each day in total and across different activity levels (very active, moderately active, light active, sedentary)?*
     - A significant portion (61%) of the total daily distance covered stems from low-intensity physical activities, including walking, household chores, and light recreational activities, emphasizing their importance in daily activity levels."
-    
-    ![Understanding User Activity_ Average Daily Distance Across Activity Levels.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/b5752810-4268-461f-a313-001bee970070/Understanding_User_Activity__Average_Daily_Distance_Across_Activity_Levels.png)
     
 
 ---
@@ -320,22 +294,12 @@ In conclusion, the dataset is clean, consistent, and reliable, setting the stage
     - *Is there a correlation between the number of very active minutes and the total distance covered?*
     - A positive correlation exists between very active minutes and total distance covered, indicating that users engage in high-intensity sports activities such as running, cycling, and hiking, leading to significant distances covered on a daily basis.
     
-    ![Understanding Activity Patterns (1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/f4a9df9f-7384-41d3-bbec-33bfa73c5b62/Understanding_Activity_Patterns_(1).png)
-    
 
 ---
 
 - **Key Finding #5**
     - *What is the percentage of users that log activities they engage in?*
     - The majority of users (89%) do not track their activities, while a minority (11%) do. Users who track activities contribute significantly more to very active minutes (77%) and less to sedentary minutes (47.6%) compared to non-trackers.
-    
-    ![Distribution of Activity Tracking Behavior Among Users (1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/30cd6287-dc52-4a22-b00e-108dbcdf61dc/Distribution_of_Activity_Tracking_Behavior_Among_Users_(1).png)
-    
-    ![Exploring User Behavior_ Activity Level and Tracking.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/3ee272f3-e4ff-4b26-9adc-c0ba1b9962a2/Exploring_User_Behavior__Activity_Level_and_Tracking.png)
-    
-    ![Exploring User Behavior_ Activity Level and Tracking (1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/60aa0d22-787d-4f6e-9496-c0041abb127d/Exploring_User_Behavior__Activity_Level_and_Tracking_(1).png)
-    
-    ![Exploring User Behavior_ Activity Tracking and Calories Burnt.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9fb30c43-dc57-41f0-8b34-76ab19580b70/c2ed2a67-b409-4774-958a-ea8d1faf6d72/Exploring_User_Behavior__Activity_Tracking_and_Calories_Burnt.png)
 
 
   ## Top Level Insights Based on Analysis
