@@ -33,9 +33,9 @@ The data was gathered through a survey on the Amazon Mechanical Turk Platform, a
 
 ### Data Source Details
 
-The data set contain 18 csv files. To make it easier to work with, the csv files were uploaded into Google Sheets and were batched based on the main categories (Daily Activity and Sleep) that would be useful for answering the business task questions . 
+The data set contain 18 csv files. To make it easier to work with, the csv files were uploaded into Google Sheets and were batched based on the main category (Daily Activity) that would be useful for answering the business task questions . 
 
-Content	Sheet
+#### Raw Daily Activity Data - Google Sheets
 Id, ActivityDate, TotalSteps, TotalDistance, TrackerDistance, LoggedActivities, Distance, VeryActiveDistance, ModeratelyActiveDistance, LightActiveDistance, SedentaryActiveDistance, VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes, SedentaryMinutes, Calories	Raw Daily Activity Data - Google Sheets
 
 
