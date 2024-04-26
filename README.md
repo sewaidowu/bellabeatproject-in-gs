@@ -269,7 +269,9 @@ In conclusion, the dataset is clean, consistent, and reliable, setting the stage
 
   ## Key Findings and Supporting Visuals
 
-  - **Key Finding #1**
+---
+
+ **Key Finding #1**
     - *How consistent are step counts throughout the week?*
     - The step counts throughout the week show relative consistency, with a 17% difference between the minimum average count (Sunday) and the maximum average count (Tuesday). Additionally, the standard deviation remains approximately 6.14% of the mean step count, indicating relatively low variability
         
@@ -304,7 +306,7 @@ In conclusion, the dataset is clean, consistent, and reliable, setting the stage
 
   ## Top Level Insights Based on Analysis
 
-  - **Recommendation #1 - Maximize Activity Levels throughout the Week**
+ **Recommendation #1 - Maximize Activity Levels throughout the Week**
 To capitalize on peak activity levels observed on Mondays and Tuesdays, 
 1. Tailored content and challenges can be designed to align with users' heightened motivation at the start of the week. 
 2. Midweek incentives and exclusive content can help to sustain momentum beyond Mondays and Tuesdays. 
