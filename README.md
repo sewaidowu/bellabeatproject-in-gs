@@ -2,6 +2,8 @@
 
 [Presentation Document - Project Overview, Key Findings + Supporting Visualizations and Recommendations](https://docs.google.com/presentation/d/1gT5MjjK4A1MqUjy77pXBKkfyfiGvs6TzaPtz2egr1JI/edit#slide=id.g2c43ea45db0_0_107)
 
+Watch the presentation video on Youtube: https://www.youtube.com/watch?v=QL6yXcFm-iY
+
 ## A Clear Summary of the Business Task
 **The business task of this project is** 
 
